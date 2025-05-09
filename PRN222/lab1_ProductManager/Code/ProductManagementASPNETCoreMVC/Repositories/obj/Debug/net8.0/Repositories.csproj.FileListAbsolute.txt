@@ -1,0 +1,17 @@
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\bin\Debug\net8.0\Repositories.deps.json
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\bin\Debug\net8.0\Repositories.dll
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\bin\Debug\net8.0\Repositories.pdb
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\bin\Debug\net8.0\BusinessObjects.dll
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\bin\Debug\net8.0\DataAccessObjects.dll
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\obj\Debug\net8.0\Repositories.dll
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\obj\Debug\net8.0\Repositories.pdb
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\Repositories\obj\Debug\net8.0\ref\Repositories.dll

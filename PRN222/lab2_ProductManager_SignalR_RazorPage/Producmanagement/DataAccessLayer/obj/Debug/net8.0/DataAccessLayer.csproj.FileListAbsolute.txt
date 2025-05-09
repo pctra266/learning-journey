@@ -1,0 +1,15 @@
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\bin\Debug\net8.0\BusinessObject.dll
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\bin\Debug\net8.0\BusinessObject.pdb
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

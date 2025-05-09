@@ -1,0 +1,14 @@
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\bin\Debug\net8.0\BusinessObject.deps.json
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\bin\Debug\net8.0\BusinessObject.runtimeconfig.json
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\bin\Debug\net8.0\BusinessObject.dll
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\bin\Debug\net8.0\BusinessObject.pdb
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.AssemblyReference.cache
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\obj\Debug\net8.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfoInputs.cache
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfo.cs
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\obj\Debug\net8.0\BusinessObject.dll
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\obj\Debug\net8.0\refint\BusinessObject.dll
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\obj\Debug\net8.0\BusinessObject.genruntimeconfig.cache
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll

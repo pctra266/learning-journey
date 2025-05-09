@@ -1,0 +1,17 @@
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\bin\Debug\net8.0\Repository.deps.json
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\bin\Debug\net8.0\Repository.dll
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\bin\Debug\net8.0\Repository.pdb
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\bin\Debug\net8.0\BusinessObject.dll
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\bin\Debug\net8.0\DataAccessLayer.dll
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\bin\Debug\net8.0\BusinessObject.pdb
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\obj\Debug\net8.0\Repository.csproj.AssemblyReference.cache
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\obj\Debug\net8.0\Repository.csproj.Up2Date
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\obj\Debug\net8.0\Repository.dll
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\obj\Debug\net8.0\refint\Repository.dll
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\obj\Debug\net8.0\Repository.pdb
+D:\Web\Project2025\lab2_ProductManager_SignalR_RazorPage\Producmanagement\Repository\obj\Debug\net8.0\ref\Repository.dll

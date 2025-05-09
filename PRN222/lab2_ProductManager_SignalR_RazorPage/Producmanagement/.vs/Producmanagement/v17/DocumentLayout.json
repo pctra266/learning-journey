@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Web\\Project2025\\lab2_ProductManager_SignalR_RazorPage\\Producmanagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CCD43E-3C87-4533-BEAD-5301655DB639}|ProductMangementRazorPage\\ProductMangementRazorPage.csproj|d:\\web\\project2025\\lab2_productmanager_signalr_razorpage\\producmanagement\\productmangementrazorpage\\pages\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7CCD43E-3C87-4533-BEAD-5301655DB639}|ProductMangementRazorPage\\ProductMangementRazorPage.csproj|solutionrelative:productmangementrazorpage\\pages\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CCD43E-3C87-4533-BEAD-5301655DB639}|ProductMangementRazorPage\\ProductMangementRazorPage.csproj|d:\\web\\project2025\\lab2_productmanager_signalr_razorpage\\producmanagement\\productmangementrazorpage\\pages\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7CCD43E-3C87-4533-BEAD-5301655DB639}|ProductMangementRazorPage\\ProductMangementRazorPage.csproj|solutionrelative:productmangementrazorpage\\pages\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CCD43E-3C87-4533-BEAD-5301655DB639}|ProductMangementRazorPage\\ProductMangementRazorPage.csproj|d:\\web\\project2025\\lab2_productmanager_signalr_razorpage\\producmanagement\\productmangementrazorpage\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F7CCD43E-3C87-4533-BEAD-5301655DB639}|ProductMangementRazorPage\\ProductMangementRazorPage.csproj|solutionrelative:productmangementrazorpage\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CCD43E-3C87-4533-BEAD-5301655DB639}|ProductMangementRazorPage\\ProductMangementRazorPage.csproj|d:\\web\\project2025\\lab2_productmanager_signalr_razorpage\\producmanagement\\productmangementrazorpage\\pages\\products\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CCD43E-3C87-4533-BEAD-5301655DB639}|ProductMangementRazorPage\\ProductMangementRazorPage.csproj|solutionrelative:productmangementrazorpage\\pages\\products\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7CCD43E-3C87-4533-BEAD-5301655DB639}|ProductMangementRazorPage\\ProductMangementRazorPage.csproj|d:\\web\\project2025\\lab2_productmanager_signalr_razorpage\\producmanagement\\productmangementrazorpage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7CCD43E-3C87-4533-BEAD-5301655DB639}|ProductMangementRazorPage\\ProductMangementRazorPage.csproj|solutionrelative:productmangementrazorpage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Web\\Project2025\\lab2_ProductManager_SignalR_RazorPage\\Producmanagement\\ProductMangementRazorPage\\Pages\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductMangementRazorPage\\Pages\\Products\\Index.cshtml",
+              "ToolTip": "D:\\Web\\Project2025\\lab2_ProductManager_SignalR_RazorPage\\Producmanagement\\ProductMangementRazorPage\\Pages\\Products\\Index.cshtml",
+              "RelativeToolTip": "ProductMangementRazorPage\\Pages\\Products\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T10:56:15.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Web\\Project2025\\lab2_ProductManager_SignalR_RazorPage\\Producmanagement\\ProductMangementRazorPage\\Program.cs",
+              "RelativeDocumentMoniker": "ProductMangementRazorPage\\Program.cs",
+              "ToolTip": "D:\\Web\\Project2025\\lab2_ProductManager_SignalR_RazorPage\\Producmanagement\\ProductMangementRazorPage\\Program.cs",
+              "RelativeToolTip": "ProductMangementRazorPage\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T10:38:20.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Web\\Project2025\\lab2_ProductManager_SignalR_RazorPage\\Producmanagement\\ProductMangementRazorPage\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ProductMangementRazorPage\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Web\\Project2025\\lab2_ProductManager_SignalR_RazorPage\\Producmanagement\\ProductMangementRazorPage\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ProductMangementRazorPage\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-09T10:22:14.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Web\\Project2025\\lab2_ProductManager_SignalR_RazorPage\\Producmanagement\\ProductMangementRazorPage\\Pages\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProductMangementRazorPage\\Pages\\Products\\Create.cshtml",
+              "ToolTip": "D:\\Web\\Project2025\\lab2_ProductManager_SignalR_RazorPage\\Producmanagement\\ProductMangementRazorPage\\Pages\\Products\\Create.cshtml",
+              "RelativeToolTip": "ProductMangementRazorPage\\Pages\\Products\\Create.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T10:25:39.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "D:\\Web\\Project2025\\lab2_ProductManager_SignalR_RazorPage\\Producmanagement\\ProductMangementRazorPage\\Pages\\Products\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "ProductMangementRazorPage\\Pages\\Products\\Create.cshtml.cs",
+              "ToolTip": "D:\\Web\\Project2025\\lab2_ProductManager_SignalR_RazorPage\\Producmanagement\\ProductMangementRazorPage\\Pages\\Products\\Create.cshtml.cs",
+              "RelativeToolTip": "ProductMangementRazorPage\\Pages\\Products\\Create.cshtml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T10:24:22.026Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

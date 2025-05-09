@@ -1,0 +1,22 @@
+﻿@model AccountMember
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login" method="post" asp-controller="Account">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MemberId" class="control-label"></label>
+                <input asp-for="MemberId" class="form-control" />
+                <span asp-validation-for="MemberId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MemberPassword" class="control-label"></label>
+                <input asp-for="MemberPassword" class="form-control" type="password" />
+                <span asp-validation-for="MemberPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

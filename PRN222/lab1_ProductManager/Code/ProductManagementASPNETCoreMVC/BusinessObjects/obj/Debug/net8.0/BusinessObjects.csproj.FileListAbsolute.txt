@@ -1,0 +1,14 @@
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\bin\Debug\net8.0\BusinessObjects.deps.json
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\bin\Debug\net8.0\BusinessObjects.runtimeconfig.json
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\bin\Debug\net8.0\BusinessObjects.dll
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.AssemblyReference.cache
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\obj\Debug\net8.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfoInputs.cache
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfo.cs
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.CoreCompileInputs.cache
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\obj\Debug\net8.0\BusinessObjects.dll
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\obj\Debug\net8.0\refint\BusinessObjects.dll
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\obj\Debug\net8.0\BusinessObjects.genruntimeconfig.cache
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll

@@ -1,0 +1,15 @@
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.deps.json
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.dll
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.pdb
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\bin\Debug\net8.0\BusinessObjects.dll
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.AssemblyReference.cache
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfoInputs.cache
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfo.cs
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\obj\Debug\net8.0\DataAcce.79975846.Up2Date
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.dll
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\obj\Debug\net8.0\refint\DataAccessObjects.dll
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.pdb
+D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\DataAccessObjects\obj\Debug\net8.0\ref\DataAccessObjects.dll
