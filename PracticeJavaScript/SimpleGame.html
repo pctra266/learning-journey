@@ -8,14 +8,25 @@
         <button onclick="playGame('Rock')" >Rock</button>
         <button onclick="playGame('Paper')">Paper</button>
         <button onclick="playGame('Scissors')">Scissors</button>
+
+        <p id="result">Let choose your choice</p>
+        <p id="score"></p>
+        <button onclick="resetScore()">Reset Score</button>
     </body>
     <script>
+        let score = JSON.parse(localStorage.getItem('score'));
+        if(score == null){
+            score =  {
+            player: 0,
+            computer: 0
+        };
+        }
+        updateScore();
         let playerChoice = ''; 
         let computerChoice = ''; 
         let result = '';
 function playGame(playerChoice) {
-            let randomNumber = (Math.random());
-        
+        let randomNumber = (Math.random());
         if(randomNumber < 0.33){
             computerChoice = 'Rock';
         } else if (randomNumber < 0.66){
@@ -32,10 +43,26 @@ function playGame(playerChoice) {
                 (playerChoice === 'Scissors' && computerChoice === 'Paper')
             ) {
                 result = 'You win!';
+                score.player++;
             } else {
                 result = 'You lose!';
+                score.computer++;
             }
-            alert(`You chose ${playerChoice}, computer chose ${computerChoice}. ${result}`);
+            updateScore();
+            updateResult();
+            // alert(`You chose ${playerChoice}, computer chose ${computerChoice}. ${result}`);
+        }
+        function updateResult() {
+            document.getElementById('result').innerHTML = result;
+        }
+        function updateScore() {
+            document.getElementById('score').innerHTML = `Player: ${score.player}, Computer: ${score.computer}`;
+            localStorage.setItem('score', JSON.stringify(score));
+        }
+        function resetScore() {
+            score.player = 0;
+            score.computer = 0;
+            updateScore();
         }
         
     </script>
