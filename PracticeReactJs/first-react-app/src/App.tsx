@@ -1,9 +1,10 @@
-import Message from "./Message";
+import ListGroup from "./Components/ListGroup";
 
 function App() {
+  const items = ["Zoro", "Nami", "Usopp", "Sanji", "Chopper"];
   return (
     <div>
-      <Message></Message>
+      <ListGroup items={items} heading="StrawHat"></ListGroup>
     </div>
   );
 }
