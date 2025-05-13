@@ -2,6 +2,7 @@ import { useState } from "react";
 interface ListGroupProps {
   items: string[];
   heading: string;
+  fun1: (item: string) => void;
 }
 
 function ListGroup(prop: ListGroupProps) {
@@ -21,7 +22,10 @@ function ListGroup(prop: ListGroupProps) {
                 : "list-group-item "
             }
             key={item}
-            onClick={() => setSelectedIndex(index)}
+            onClick={() => {
+              setSelectedIndex(index);
+              prop.fun1(item);
+            }}
           >
             {item}
           </li>
