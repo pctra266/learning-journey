@@ -5020,11 +5020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj",
+      "projectUniqueName": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj",
       "projectName": "BusinessObjects",
-      "projectPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj",
+      "projectPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\obj\\",
+      "outputPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio 2022\\Shared\\NuGetPackages"

@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Services\\AccountService.cs",
               "ToolTip": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\AccountService.cs",
               "RelativeToolTip": "Services\\AccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T09:15:46.008Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Services\\IAccountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:14:27.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T09:14:27.992Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:06:43.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T09:06:43.734Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Repositories\\CatergoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:06:14.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T09:06:14.553Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Repositories\\AccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:05:57.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T09:05:57.19Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "Repositories\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:58:12.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:58:12.042Z"
             }
           ]
         }

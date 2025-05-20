@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZYeo99ShzdQ=",
+  "dgSpecHash": "tDBKBRMDQQQ=",
   "success": true,
-  "projectFilePath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj",
+  "projectFilePath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

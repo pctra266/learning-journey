@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj": {}
+    "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj": {}
   },
   "projects": {
-    "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj": {
+    "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj",
+        "projectPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\obj\\",
+        "outputPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio 2022\\Shared\\NuGetPackages"
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\DataAccessObjects\\DataAccessObjects.csproj": {
+    "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\DataAccessObjects\\DataAccessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectUniqueName": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\DataAccessObjects\\DataAccessObjects.csproj",
         "projectName": "DataAccessObjects",
-        "projectPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\DataAccessObjects\\DataAccessObjects.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\DataAccessObjects\\obj\\",
+        "outputPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\DataAccessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio 2022\\Shared\\NuGetPackages"
@@ -113,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj"
+              "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\BusinessObjects\\BusinessObjects.csproj"
               }
             }
           }
@@ -154,14 +154,14 @@
         }
       }
     },
-    "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj": {
+    "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj",
+        "projectPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\obj\\",
+        "outputPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio 2022\\Shared\\NuGetPackages"
@@ -182,8 +182,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\DataAccessObjects\\DataAccessObjects.csproj": {
-                "projectPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\DataAccessObjects\\DataAccessObjects.csproj"
+              "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\DataAccessObjects\\DataAccessObjects.csproj": {
+                "projectPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\DataAccessObjects\\DataAccessObjects.csproj"
               }
             }
           }
@@ -223,14 +223,14 @@
         }
       }
     },
-    "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj": {
+    "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj",
+        "projectPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\obj\\",
+        "outputPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Visual Studio 2022\\Shared\\NuGetPackages"
@@ -251,8 +251,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj": {
-                "projectPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj"
+              "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj"
               }
             }
           }

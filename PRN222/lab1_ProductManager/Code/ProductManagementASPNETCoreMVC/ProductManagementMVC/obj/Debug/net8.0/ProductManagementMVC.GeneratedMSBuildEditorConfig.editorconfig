@@ -17,69 +17,69 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProductManagementMVC
 build_property.RootNamespace = ProductManagementMVC
-build_property.ProjectDir = D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\ProductManagementMVC\
+build_property.ProjectDir = D:\Web\Project2025\FPTUniversity\University\PRN222\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\ProductManagementMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Web\Project2025\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\ProductManagementMVC
+build_property.MSBuildProjectDirectory = D:\Web\Project2025\FPTUniversity\University\PRN222\lab1_ProductManager\Code\ProductManagementASPNETCoreMVC\ProductManagementMVC
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Account/Login.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Home/Index.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Home/Privacy.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Products/Create.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Products/Delete.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Products/Details.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Products/Edit.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Products/Index.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Shared/Error.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Shared/_Notification.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/_ViewImports.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/_ViewStart.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Web/Project2025/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Shared/_Layout.cshtml]
+[D:/Web/Project2025/FPTUniversity/University/PRN222/lab1_ProductManager/Code/ProductManagementASPNETCoreMVC/ProductManagementMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-f9guzxodrd

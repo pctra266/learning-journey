@@ -3149,11 +3149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj",
+      "projectUniqueName": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj",
+      "projectPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\obj\\",
+      "outputPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio 2022\\Shared\\NuGetPackages"
@@ -3174,8 +3174,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj": {
-              "projectPath": "D:\\Web\\Project2025\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj"
+            "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj": {
+              "projectPath": "D:\\Web\\Project2025\\FPTUniversity\\University\\PRN222\\lab1_ProductManager\\Code\\ProductManagementASPNETCoreMVC\\Repositories\\Repositories.csproj"
             }
           }
         }
