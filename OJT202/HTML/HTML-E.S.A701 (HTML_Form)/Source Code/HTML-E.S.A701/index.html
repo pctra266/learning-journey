@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Your first HTML form, styled</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <header class="header">
+          <h1 class="text-center">FA Survey Form</h1>
+          <p class="description text-center">
+            Thank you for taking the time to help us improve the platform
+          </p>
+        </header>
+        <div class="form-group">
+          <div class="clue" style="">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          
+          <!-- Email  -->
+          <div class="clue">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required/>
+          </div>
+
+          <!-- Age -->
+          <div class="clue">
+          <label for="email">Age (optional)</label>
+          <input
+            type="number"
+            name="age"
+            id="age"
+            class="form-control"
+            placeholder="Age"
+            required/>
+          </div>
+
+          <!-- Current role -->
+          <div class="clue">
+          <label for="role"
+            >Which option best describes your current role? </label
+          >
+          <select  class="form-control">
+            <option>Select current role</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+
+          <!-- Recommend to friend -->
+          <div class="clue">
+          <p for="recommened">Would you recommened FA to a friend</p>
+          <input type="radio"  name="recommened" class="input-radio" checked />Definately <br/>
+           
+          <input type="radio" name="recommened" class="input-radio" />Maybe
+          <br />
+          <input type="radio" name="recommened" class="input-radio" />Not sure
+        </div>
+
+          <!-- What would you like to see improved -->
+          <div class="clue">
+          <label for="improve"
+            >What would you like to see improved? (check all apply)</label
+          >
+          <div><input name="improve" type="checkbox" class="input-checkbox" />Front-end Projects</div>
+          <div><input name="improve"  type="checkbox" class="input-checkbox" />Back-end Projects</div>
+          <div><input name="improve"  type="checkbox" class="input-checkbox" />AI</div>
+          <div><input name="improve"  type="checkbox" class="input-checkbox" />Machine Learning</div>
+          <div><input name="improve"  type="checkbox" class="input-checkbox" />Soft Skills</div>
+          <div><input name="improve"  type="checkbox" class="input-checkbox" />Presentation Skills</div>  
+        </div>
+
+          <!-- Suggestions -->
+          <div class="clue">
+          <label for="sugg"
+          >Any comments or suggestions?</label
+        >
+          <textarea placeholder="Enter your comment here..." class="input-textarea" name="sugg"></textarea>
+          <!-- Submit-button -->
+        </div>
+           <button class="submit-button">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
