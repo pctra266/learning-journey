@@ -77,6 +77,7 @@
   padding: 1rem;
   font-size: 1rem;
   border-radius: 5px;
+  text-align: center;
 }
 
 
@@ -128,7 +129,7 @@ footer{
     width: 48%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     overflow: hidden;
-
+    margin-top: 10px;
   }
   
   .plan .header {
@@ -145,6 +146,7 @@ footer{
   
   .plan.premium .header {
     background: #f44336;
+    
   }
   
   .plan ul {
@@ -186,7 +188,7 @@ footer{
     background-color: #555;
     color: white;
     text-align: center;
-    padding: 60px 20px;
+    padding: 60px 10px;
   }
   
   .features h2 {
@@ -201,7 +203,7 @@ footer{
   
   .features-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(120px, 1fr));
+    grid-template-columns: repeat(4, minmax(80px, 1fr));
     gap: 30px;
     max-width: 1000px;
     margin: 0 auto;
@@ -290,4 +292,73 @@ footer{
   }
   .avai img{
     height: 1rem;
+  }
+
+  @media screen and (max-width: 476px) {
+    .adv {
+      flex-direction: column;
+    }
+    .adv{
+      padding: 0px;
+    }
+    .take-photos{
+      width: 100%;
+    }
+    .take-tour{
+      width: 100%;
+      border-radius: 0px;
+    }
+    .take-photos button {
+      width: 100%;
+      border-radius: 0px;
+    }
+    .take-photos{
+      padding: 0;
+    }
+    .take-photos h2{
+      display: none;
+    }
+    .take-photos p{
+      display: none;
+    }
+    .take-photos hr{
+      display: none;
+    }
+    .features-grid{
+      grid-template-columns: repeat(4, minmax(50px, 1fr));
+      column-gap: 0px;
+    }
+    .why-buy{
+      flex-direction: column;
+      align-items: center;
+    }
+    .why-buy .why-buy-left{
+      max-width: 100%;
+    }
+    .why-buy .why-buy-right img{
+      max-width: 100%;
+    }
+    .download-container{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .clarity{
+      flex-direction: column;
+      align-items: center;
+    }
+    .clarity .clarity-right{
+      max-width: 100%;
+    }
+    .clarity .clarity-left img{
+      max-width: 100%;
+    }
+    .pricing-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .plan{
+      width: 100%;
+    }
+    
   }
