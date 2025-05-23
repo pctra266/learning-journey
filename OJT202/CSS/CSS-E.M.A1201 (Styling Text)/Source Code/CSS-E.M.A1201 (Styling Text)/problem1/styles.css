@@ -1,0 +1,139 @@
+/* General setup */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+ 
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+@font-face {
+  font-family: "josefinslab";
+  src: url(./fonts/josefinslab-bold-webfont.ttf);
+}
+
+@font-face {
+  font-family: "lovato";
+  src: url(./fonts/Lovato-Light-webfont.ttf);
+}
+
+body{
+  font-family: "josefinslab";
+  font-size: 10px;
+  line-height: 15px ;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+
+header{
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+section h2+p{
+  text-indent: 20px;
+}
+
+a:hover,a:visited,a:link{
+  color:#a66 ;
+}
+
+a{
+  text-decoration: underline;
+}
+
+a:focus,a:hover{
+  text-decoration: none;
+}
+a:focus{
+  outline: none;
+}
+
+a:active{
+  background-color: #a66; 
+    color: white; 
+}
+
+a[href^="https"]::after {
+  content: "🔗";
+}
+ul,ol{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+ul li,ol li{
+  line-height: 15px ;
+  
+}
+ol{
+  list-style-type: lower-latin;
+}
+
+ul{
+  list-style-type: square;
+}
+nav ul li{
+  list-style-type: none;
+  border: 1px solid #a66;
+  width: 20vh;
+  height: 10vh;
+  margin: 10px;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li a{
+  
+  text-decoration: none;
+}

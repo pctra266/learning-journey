@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.05rem;
+    word-spacing: 0.05rem;
+}
+.container {
+  /* padding-left: 10px;
+    padding-right: 10px; */
+}
+.adv {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../resources/app.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 0 10px;
+}
+
+/* .adv img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  z-index: -1;
+} */
+.take-photos {
+  width: 30%;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  text-align: center;
+}
+
+.take-photos h2 {
+  margin: 0.1rem auto 1.5rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.take-photos p {
+  margin: 1rem;
+  font-size: 0.75rem;
+  font-weight: lighter;
+}
+
+.take-photos button {
+  border: none;
+  background-color: #4DAF50;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5em;
+  
+}
+
+.take-photos button img{
+  filter: invert();
+  height: 1rem;
+}
+
+.take-tour {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+
+
+footer{
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+.social img{
+    width:3%;
+    height: auto;
+    margin-left:2px ;
+    margin-right: 2px;
+}
+/* pricing */
+.pricing {
+    padding: 40px 10px;
+  }
+
+  .pricing h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .pricing p {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .pricing-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .plan {
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 48%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+
+  }
+  
+  .plan .header {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .plan.basic .header {
+    background: #555;
+  }
+  
+  .plan.premium .header {
+    background: #f44336;
+  }
+  
+  .plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .plan ul li {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .plan .price {
+    font-size: 1.5em;
+    padding: 20px 0;
+    color: #5A5A5A;
+  }
+  
+  .plan button {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+
+  .plan button img{
+    filter: invert();
+    height: 1rem;
+  }
+  
+
+  /* feature */
+  .features {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .features p {
+    margin-bottom: 40px;
+    color: #ccc;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .feature-item img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item p {
+    margin: 0;
+    font-weight: 500;
+  }
+  
+  /* Clarity */
+
+  .clarity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F1F1F1;
+    padding: 40px 10px;
+  }
+  .clarity .clarity-right{
+    max-width: 60%;
+  }
+  .clarity .clarity-right h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .clarity .clarity-right h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #F44336;
+  }
+
+  .para-first-sen{
+    font-size: 1.25rem;;
+    font-weight: 500;
+  }
+
+  .clarity .clarity-left img{
+    filter: saturate(10%);
+  }
+
+  /* why buy */
+  .why-buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10px;
+}
+  .why-buy .why-buy-left{
+    max-width: 60%;
+  }
+  .why-buy .why-buy-left h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .why-buy .why-buy-left h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #4DAF50;
+  }
+  
+  .why-buy .why-buy-left button{
+    border: none;
+    background-color:#F1F1F1 ;
+    height: fit-content;
+    padding: 0.5rem 1rem;
+    margin:20px auto ;
+  }
+
+  .why-buy .why-buy-left button img{
+    height: 1rem;
+  }
+  .avai img{
+    height: 1rem;
+  }
