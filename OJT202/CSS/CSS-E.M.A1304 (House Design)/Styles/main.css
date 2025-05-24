@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2rem;
+    word-spacing: 0.1rem;
+}
+.container{
+    padding: 0 100px;
+}
+
+
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+}
+
+
+
+.contact img{
+    height: 1rem;
+    filter: invert();
+}
+
+.contact-info{
+    background-color: black;
+    color: white;
+    height: 100%;
+    flex: 1;
+}
+.contact-us{
+    background-color: #616161;
+    color: white;
+    height:  100%;
+    flex: 1;
+
+}
+
+.like-us{
+    background-color: #9E9E9E;
+    color: white;
+    height:100%;
+    flex: 1;
+}
+
+.contact-us,
+.like-us{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.like-us img{
+    margin-top: 5px;
+}
+.contact-us,
+.like-us,
+.contact-info{
+    padding: 10px 10px 20px 10px;
+}
+.contact-us h2,
+.like-us h2,
+.contact-info h2{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+
+/* content */
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.content-text{
+    display: flex;
+}
+
+.content-text-leff{
+    width: 50%;
+}
+.content-text-right{
+    width: 50%;
+}
+.context-img{
+    display: flex;
+    
+}
+.content-left{
+    width: 50%;
+}
+.content-right{
+    width: 50%;
+}
+.content-right img{
+    width: 100%;
+}
+.content-left img{
+    width: 98%;
+}
+
+.content-text{
+    color: #9E9E9E;
+}
+.most-recent{
+    text-transform: uppercase;
+    color: #9E9E9E;
+}
+
+.content-right p{
+    color: #9E9E9E;
+}
+
+.content-text-leff h2{
+    color: #616161 ;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.content-text-leff h1{
+    color: black;
+    font-size: 4rem;
+    font-weight: lighter;
+    margin: 20px auto 40px;
+}
+
+
+@media screen and (max-width: 768px){
+    .container{
+        padding: 0 10px;
+    }
+    .content-text{
+        flex-direction: column;
+    }
+    .context-img{
+        flex-direction: column;
+    }
+    .content-left{
+        width: 100%;
+    }
+    .content-text-leff{
+        width: 100%;
+    }
+    .content-text-right{
+        width: 100%;
+    }
+
+    .content-left img{
+        width: 100%;
+    }
+    .content-right{
+        width: 100%;
+    }
+
+    .contact{
+        flex-direction: column;
+        height: auto;
+    }
+    
+}
