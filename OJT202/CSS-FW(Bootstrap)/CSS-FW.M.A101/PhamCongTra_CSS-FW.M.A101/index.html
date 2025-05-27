@@ -19,106 +19,303 @@
   </head>
   <body>
     <header class="bg-white">
-        <div class="container d-flex justify-content-between align-items-center py-3">
-          <h1 class="h4 text-dark mb-0">Start Bootstrap</h1>
-          <button class="btn btn-primary">Sign In</button>
-        </div>
-      </header>
+      <div
+        class="container d-flex justify-content-between align-items-center py-1"
+      >
+        <h1 class="h5 text-dark mb-0">Start Bootstrap</h1>
+        <button class="btn btn-primary">Sign In</button>
+      </div>
+    </header>
 
-  <!-- 2. Nội dung chính (stack vertical cho mobile) -->
-  <main class="container">
     <section
-  class="bg-dark text-white"
-  style="
-    background: url('./resources/images/bg-masthead.jpg') no-repeat center center;
-    background-size: cover;
-    min-height: 600px;
-  "
->
-  <div
-    class="container h-100 d-flex flex-column justify-content-center align-items-center text-center"
-  >
-    <!-- Dòng chữ chính -->
-    <h2 class="display-5 fw-bold mb-4">
-      Building a landing page for your business or project and generate more leads!
-    </h2>
+      class="d-flex justify-content-center"
+      style="
+        background: url('./resources/images/bg-masthead.jpg') no-repeat center
+          center;
+        background-size: cover;
+        min-height: 60vh;
+      "
+    >
+      <div
+        class="w-50 d-flex flex-column justify-content-center align-items-center"
+      >
+        <!-- Dòng chữ chính -->
+        <h2 class="text-center text-white mb-md-4">
+          Building a landing page for your business or project and generate more
+          leads!
+        </h2>
 
-    <!-- Form nhập email + nút Sign up -->
-    <form class="w-100" style="max-width: 600px;">
-      <div class="input-group">
-        <input
-          type="email"
-          class="form-control form-control-lg"
-          placeholder="Enter your email ..."
-          aria-label="Enter your email"
-        />
-        <button class="btn btn-primary btn-lg" type="submit">
-          Sign up!
-        </button>
+        <!-- Form nhập email + nút Sign up -->
+        <form class="w-75">
+          <div class="input-group">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Enter your email ..."
+            />
+            <button class="btn btn-primary" type="submit">
+              Sign up!
+            </button>
+          </div>
+        </form>
       </div>
-    </form>
-  </div>
-</section>
+    </section>
 
-<section class="py-5">
-    <div class="container d-flex flex-column flex-md-row justify-content-around text-center">
-      
-      <!-- Feature Item 1 -->
-      <div class="mb-4 mb-md-0" style="max-width: 300px;">
-        <!-- Icon -->
-        <img
-          src="https://via.placeholder.com/60"
-          alt="Icon 1"
-          class="mb-3"
-        />
-        <!-- Title -->
-        <h4 class="h5 fw-bold">Fully Responsive</h4>
-        <!-- Description -->
-        <p class="mb-0">
-          This theme will look great on any<br />
-          device, no matter the size!
-        </p>
-      </div>
-  
-      <!-- Feature Item 2 -->
-      <div class="mb-4 mb-md-0" style="max-width: 300px;">
-        <!-- Icon -->
-        <img
-          src="https://via.placeholder.com/60"
-          alt="Icon 2"
-          class="mb-3"
-        />
-        <!-- Title -->
-        <h4 class="h5 fw-bold">Bootstrap 4 Ready</h4>
-        <!-- Description -->
-        <p class="mb-0">
-          Featuring the latest build of the new<br />
-          Bootstrap 4 framework!
-        </p>
-      </div>
-  
-      <!-- Feature Item 3 -->
-      <div style="max-width: 300px;">
-        <!-- Icon -->
-        <img
-          src="https://via.placeholder.com/60"
-          alt="Icon 3"
-          class="mb-3"
-        />
-        <!-- Title -->
-        <h4 class="h5 fw-bold">Easy to Use</h4>
-        <!-- Description -->
-        <p class="mb-0">
-          Ready to use with your own content,
-        </p>
-      </div>
-  
-    </div>
-  </section>
+    <section class="py-5">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-around text-center"
+      >
+        <!-- Feature Item 1 -->
+        <div class="mb-4 mb-md-0" style="max-width: 300px">
+          <!-- Icon -->
+          <img src="https://via.placeholder.com/60" alt="Icon 1" class="mb-3" />
+          <!-- Title -->
+          <h4 class="h5 fw-bold">Fully Responsive</h4>
+          <!-- Description -->
+          <p class="mb-0">
+            This theme will look great on any<br />
+            device, no matter the size!
+          </p>
+        </div>
 
-  <!-- 3. Footer -->
-  <footer class="bg-light text-center py-3">
-    <small>&copy; 2025 Công ty của bạn</small>
-  </footer>
+        <!-- Feature Item 2 -->
+        <div class="mb-4 mb-md-0" style="max-width: 300px">
+          <!-- Icon -->
+          <img src="https://via.placeholder.com/60" alt="Icon 2" class="mb-3" />
+          <!-- Title -->
+          <h4 class="h5 fw-bold">Bootstrap 4 Ready</h4>
+          <!-- Description -->
+          <p class="mb-0">
+            Featuring the latest build of the new<br />
+            Bootstrap 4 framework!
+          </p>
+        </div>
+
+        <!-- Feature Item 3 -->
+        <div style="max-width: 300px">
+          <!-- Icon -->
+          <img src="https://via.placeholder.com/60" alt="Icon 3" class="mb-3" />
+          <!-- Title -->
+          <h4 class="h5 fw-bold">Easy to Use</h4>
+          <!-- Description -->
+          <p class="mb-0">Ready to use with your own content,</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Image: đứng trên mobile, bên phải desktop -->
+          <div class="col-12 col-md-6 order-md-2 mb-4 mb-md-0">
+            <img
+              src="./resources/images/bg-showcase-1.jpg"
+              alt="Fully Responsive Design"
+              class="img-fluid"
+            />
+          </div>
+
+          <!-- Text: đứng dưới mobile, bên trái desktop -->
+          <div class="col-12 col-md-6 order-md-1">
+            <h3 class="h4 fw-bold mb-3">Fully Responsive Design</h3>
+            <p class="mb-0">
+              When you use a theme created by Start Bootstrap, you know that the
+              theme will look great on any device, whether it's a phone, tablet,
+              or desktop—the page will behave responsively!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Ảnh bên trái, chữ bên phải -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Ảnh (đứng trên mobile, bên trái desktop) -->
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <img
+              src="./resources/images/bg-showcase-2.jpg"
+              alt="Section Image"
+              class="img-fluid"
+            />
+          </div>
+
+          <!-- Text (đứng dưới ảnh trên mobile, bên phải desktop) -->
+          <div class="col-12 col-md-6">
+            <h3 class="h4 fw-bold mb-3">Updated For Bootstrap 4</h3>
+            <p class="mb-0">
+              Newly improved, and full of great utility classes, Bootstrap 4 is
+              leading the way in mobile responsive web development! All of the
+              themes on Start Bootstrap are now using Bootstrap 4!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Image: đứng trên mobile, bên phải desktop -->
+          <div class="col-12 col-md-6 order-md-2 mb-4 mb-md-0">
+            <img
+              src="./resources/images/bg-showcase-3.jpg"
+              alt="Fully Responsive Design"
+              class="img-fluid"
+            />
+          </div>
+
+          <!-- Text: đứng dưới mobile, bên trái desktop -->
+          <div class="col-12 col-md-6 order-md-1">
+            <h3 class="h4 fw-bold mb-3">Easy to Use & Customize</h3>
+            <p class="mb-0">
+              Landing Page is just HTML and CSS with a splash of SCSS for users
+              who demand some deeper customization options. Out of the box, just
+              add your content and images, and your new landing page will be
+              ready to go!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: What People Are Saying -->
+    <section class="py-5">
+      <div class="container">
+        <!-- Dòng tiêu đề được căn giữa -->
+        <div class="row">
+          <div class="col-12 text-center mb-4">
+            <h3 class="h4 fw-bold">What people are saying...</h3>
+          </div>
+        </div>
+
+        <!-- 3 ảnh bo tròn: xếp dọc trên mobile, ngang trên desktop -->
+        <div
+          class="d-flex flex-column flex-md-row justify-content-around align-items-center text-center"
+        >
+          <!-- Avatar/Ảnh 1 -->
+          <div class="mb-4 mb-md-0">
+            <img
+              src="./resources/images//testimonials-1.jpg"
+              alt="Person 1"
+              class="rounded-circle img-fluid"
+              style="width: 120px; height: 120px; object-fit: cover"
+            />
+          </div>
+
+          <!-- Avatar/Ảnh 2 -->
+          <div class="mb-4 mb-md-0">
+            <img
+              src="./resources/images//testimonials-2.jpg"
+              alt="Person 2"
+              class="rounded-circle img-fluid"
+              style="width: 120px; height: 120px; object-fit: cover"
+            />
+          </div>
+
+          <!-- Avatar/Ảnh 3 -->
+          <div>
+            <img
+              src="./resources/images//testimonials-3.jpg"
+              alt="Person 3"
+              class="rounded-circle img-fluid"
+              style="width: 120px; height: 120px; object-fit: cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="bg-dark text-white"
+      style="
+        background: url('./resources/images/bg-masthead.jpg') no-repeat center
+          center;
+        background-size: cover;
+        min-height: 600px;
+      "
+    >
+      <div
+        class="container h-100 d-flex flex-column justify-content-center align-items-center text-center"
+      >
+        <!-- Dòng chữ chính -->
+        <h2 class="display-5 fw-bold mb-4">
+          Building a landing page for your business or project and generate more
+          leads!
+        </h2>
+
+        <!-- Form nhập email + nút Sign up -->
+        <form class="w-100" style="max-width: 600px">
+          <div class="input-group">
+            <input
+              type="email"
+              class="form-control form-control-lg"
+              placeholder="Enter your email ..."
+              aria-label="Enter your email"
+            />
+            <button class="btn btn-primary btn-lg" type="submit">
+              Sign up!
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!--  Footer -->
+    <footer class="bg-white py-4">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center"
+      >
+        <!-- Left side: Links & Text -->
+        <div class="text-center text-md-start mb-3 mb-md-0">
+          <nav class="mb-2">
+            <a href="#" class="text-primary text-decoration-none me-2">About</a>
+            <span class="text-primary me-2">.</span>
+            <a href="#" class="text-primary text-decoration-none me-2"
+              >Contact</a
+            >
+            <span class="text-primary me-2">.</span>
+            <a href="#" class="text-primary text-decoration-none me-2"
+              >Terms of Use</a
+            >
+            <span class="text-primary me-2">.</span>
+            <a href="#" class="text-primary text-decoration-none"
+              >Privacy Policy</a
+            >
+          </nav>
+          <small class="text-dark"
+            >Your Website 2019. All Rights Reserved.</small
+          >
+        </div>
+
+        <!-- Right side: Social Icons -->
+        <div class="text-center text-md-end">
+          <a href="#" class="me-3">
+            <img
+              src="https://via.placeholder.com/24?text=F"
+              alt="Facebook"
+              class="img-fluid"
+              style="width: 24px; height: 24px"
+            />
+          </a>
+          <a href="#" class="me-3">
+            <img
+              src="https://via.placeholder.com/24?text=T"
+              alt="Twitter"
+              class="img-fluid"
+              style="width: 24px; height: 24px"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="https://via.placeholder.com/24?text=I"
+              alt="Instagram"
+              class="img-fluid"
+              style="width: 24px; height: 24px"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
