@@ -37,19 +37,27 @@ class App {
     let numCorrect = 0;
 
     this.questions.forEach((currentQuestion, questionNumber) => {
-      console.log('currentQuestion: '+ currentQuestion); // obj
-      console.log('questionNumber: '+ questionNumber); // 0,1,2,3
-
+      
       const answerContainer = answerContainers[questionNumber];
       const selector = `input[name=question-${questionNumber}]:checked`;
-      const userAnswer = answerContainer.querySelector(selector) || {};
-
-      if (userAnswer.value === currentQuestion.correctAnswer) {
-        numCorrect++;
-        answerContainers[questionNumber].style.color = 'lightgreen';
-      } else {
-        answerContainers[questionNumber].style.color = 'red';
+      const selectedInputs = answerContainer.querySelectorAll(selector);
+      const userAnswers = Array.from(selectedInputs).map(input => input.value);
+      const correctAnswers = currentQuestion.correctAnswer.split('');
+      let isCorrect = false;
+      if (currentQuestion.multi) {
+        isCorrect =
+        userAnswers.length === correctAnswers.length &&
+        userAnswers.every(ans => correctAnswers.includes(ans));
+      }else {
+        isCorrect = userAnswers[0] === currentQuestion.correctAnswer;
       }
+      if (isCorrect) {
+        numCorrect++;
+        answerContainer.style.color = 'lightgreen';
+      } else {
+        answerContainer.style.color = 'red';
+      }
+
     });
 
     this.resultsContainer.innerHTML = `${numCorrect} out of ${this.questions.length}`;
