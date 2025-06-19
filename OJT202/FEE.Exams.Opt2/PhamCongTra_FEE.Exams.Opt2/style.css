@@ -1,0 +1,52 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  th, td {
+    border: 1px solid #aaa;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #ddd;
+  }
+  
+  img {
+    width: 80px;
+  }
+  
+  button {
+    padding: 4px 8px;
+    margin: 0 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-color: transparent;
+  }
+  
+  button.minus {
+    background-color: orange;
+    color: white;
+  }
+
+  button.minus:disabled{
+    background-color: #aaa;
+  }
+  
+  button.plus {
+    background-color: green;
+    color: white;
+  }
+
+  #total-price{
+    font-weight: bold;
+  }

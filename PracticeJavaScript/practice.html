@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Grid</title>
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 100px);
+      grid-template-rows: repeat(4, 100px);
+      width: max-content;
+    }
+
+    .cell {
+      background-color: gray;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="grid" id="colorGrid"></div>
+
+  <script>
+    const grid = document.getElementById('colorGrid');
+
+    function getRandomColor() {
+      const r = Math.floor(Math.random() * 256);
+      const g = Math.floor(Math.random() * 256);
+      const b = Math.floor(Math.random() * 256);
+      return `rgb(${r}, ${g}, ${b})`;
+    }
+
+    for (let i = 0; i < 16; i++) {
+      const cell = document.createElement('div');
+      cell.classList.add('cell');
+      cell.addEventListener('click', () => {
+        cell.style.backgroundColor = getRandomColor();
+      });
+      grid.appendChild(cell);
+    }
+  </script>
+
+</body>
+</html>

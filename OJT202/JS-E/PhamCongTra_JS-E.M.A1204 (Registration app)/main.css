@@ -1,0 +1,51 @@
+/* Container chính của form */
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Tiêu đề form */
+  form h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Nhãn (Username, Password, ...) */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  /* Các ô input */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  /* Nút đăng ký */
+  button {
+    background-color: #4B3F72;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3b3160;
+  }
+  
