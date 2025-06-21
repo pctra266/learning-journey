@@ -12,4 +12,4 @@ function reverseSnakeCaseToPascalCase(stringSnakeCase){
     return result;
 }
 
-// console.log(reverseSnakeCaseToPascalCase('user_name') == 'UserName');
+console.log(reverseSnakeCaseToPascalCase('user_name') == 'UserName');

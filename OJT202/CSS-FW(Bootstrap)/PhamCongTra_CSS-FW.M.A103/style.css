@@ -1,0 +1,96 @@
+.background-img-1 {
+  background-image: url(resources/images/bg-masthead.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 40rem;
+  max-width: 100%;
+}
+.background-img-2 {
+  background-image: url(resources/images/bg-callout.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 30rem;
+  max-width: 100%;
+}
+
+.color-bg-1 {
+  background-color: #0095b3 !important;
+}
+
+.color-b {
+  color: #0095b3;
+}
+
+.item {
+  width: 10rem;
+  height: 10rem;
+}
+.item-1 {
+  width: 4rem;
+  height: 4rem;
+}
+.size-icon {
+  font-size: 4rem;
+}
+.size-icon-1 {
+  font-size: 1.5rem;
+}
+.mx {
+  margin: 3rem 10rem 0;
+}
+
+.project {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: lightgray;
+  background-blend-mode: multiply;
+
+  min-height: 22rem;
+}
+.project-1 {
+  background-image: url(resources/images/portfolio-1.jpg);
+}
+.project-2 {
+  background-image: url(resources/images/portfolio-2.jpg);
+}
+.project-3 {
+  background-image: url(resources/images/portfolio-3.jpg);
+}
+.project-4 {
+  background-image: url(resources/images/portfolio-4.jpg);
+}
+
+.top-60 {
+  top: 60%;
+}
+
+.footer {
+  min-height: 10rem;
+}
+
+@media (min-width: 280px) and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+  .flex-box {
+    width: 100%;
+  }
+  .mx {
+    margin: 0;
+  }
+  .btn-w {
+    width: 8rem !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 576px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 577px) and (max-width: 1200px) {
+  .mx {
+    margin: 0;
+  }
+}
