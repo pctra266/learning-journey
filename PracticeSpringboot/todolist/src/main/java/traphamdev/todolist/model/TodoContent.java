@@ -1,9 +1,22 @@
 package traphamdev.todolist.model;
 
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
+import org.springframework.lang.NonNull;
+
+@Entity
+@Table(name="ToDoContent")
 public class TodoContent {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    @NotBlank()
+    @Size(min = 3, max = 100)
     private String title;
     private boolean isComplete;
+
+    public TodoContent() {}
 
 
     public TodoContent(int id, String title) {
@@ -30,5 +43,9 @@ public class TodoContent {
 
     public void setComplete(boolean complete) {
         isComplete = complete;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }
