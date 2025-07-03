@@ -1,18 +1,16 @@
 import { useState } from "react";
 import FlashcardForm from "./Components/FlashcardForm";
-
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
+import Footer from "./Components/Footer";
 function App() {
-    let [counter, setCounter] = useState(0);
-    const [input,setInput] = useState("");
+    const [count, setCount] = useState(0);    
 
   return (
     <div>
-      <p>Counter: {counter}</p>
-      <button onClick={() =>{setCounter(++counter)}} > tang</button>
-      <button onClick={() =>{setCounter(--counter)}}  > giam</button>
-      <input type="text" onChange={(e)=>{setInput(e.target.value)}} />
-      <button onClick={()=>{console.log(input)}} >Add to console log</button>
-   {/* <FlashcardForm></FlashcardForm> */}
+      <Header count={count}></Header>
+      <Hero></Hero>
+      <Footer></Footer>
     </div>
   );
 }
