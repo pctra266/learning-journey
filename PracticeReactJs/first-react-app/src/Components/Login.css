@@ -1,0 +1,13 @@
+.message {
+    margin-top: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #d8000c;
+  }
+
+  .danger{
+    color: #d8000c;
+  }
+  .success{
+    color:green
+  }

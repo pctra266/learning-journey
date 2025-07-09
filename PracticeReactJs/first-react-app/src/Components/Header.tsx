@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Header = ({count}) => {
+const Header = () => {
 
   return (
     <>
     <div>Header</div>
-    <p>Count is : {count}</p>
+    <p>Count is : {1}</p>
     </>
   )
 }
