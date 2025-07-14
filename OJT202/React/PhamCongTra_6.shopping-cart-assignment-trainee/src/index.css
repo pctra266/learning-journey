@@ -1,0 +1,19 @@
+@import "tailwindcss";
+.active {
+    position: relative;
+    font-weight: bold;
+    color: black; 
+  }
+  
+  .active::before {
+    content: "";
+    position: absolute;
+    top: -8px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8px;
+    height: 8px;
+    background-color: #3b82f6; 
+    border-radius: 50%;
+  }
+  

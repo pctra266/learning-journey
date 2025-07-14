@@ -7,12 +7,10 @@ const UserPhotoAlbum = ({ album }) => {
   const [albums, setAlbums] = useState(album || []);
   const [newTitle, setNewTitle] = useState('');
 
-  // Sync local state when parent prop changes
   useEffect(() => {
     if (album) setAlbums(album);
   }, [album]);
 
-  // Add new album
   const handleAddAlbum = async () => {
     const title = newTitle.trim();
     if (!title) return;
@@ -22,7 +20,6 @@ const UserPhotoAlbum = ({ album }) => {
         'https://jsonplaceholder.typicode.com/albums',
         { title, userId: Number(userId) }
       );
-      // Fake API returns a new id, so append it
       setAlbums(prev => [...prev, response.data]);
       setNewTitle('');
     } catch (error) {
@@ -30,7 +27,6 @@ const UserPhotoAlbum = ({ album }) => {
     }
   };
 
-  // Delete album
   const handleDeleteAlbum = async (id) => {
     try {
       await axios.delete(
@@ -73,7 +69,6 @@ const UserPhotoAlbum = ({ album }) => {
             className="flex items-center justify-between border rounded p-2"
           >
             <div className="flex gap-2">
-              {/* sequence number based on position */}
               <span className="w-6">{index + 1}</span>
               <span className="font-semibold">{alb.title}</span>
             </div>

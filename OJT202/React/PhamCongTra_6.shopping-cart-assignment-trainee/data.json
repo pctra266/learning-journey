@@ -1,0 +1,24 @@
+[
+    {
+      "productId": "1",
+      "productName": "True Skin Vitamin C",
+      "description": "Serum for Face, Topical Facial Serum without Hyaluronic Acid & Vitamin E",
+      "imageUrl": "https://res.cloudinary.com/dyoztz92h/image/upload/v1632673370/Fsoft-academy/favpng_vitamin-c-vitamin-e-serum-skin_s1igc2.png",
+      "price": 23.99
+    },
+    {
+      "productId": "2",
+      "productName": "RBC Serum Facial",
+      "description": "Serum for Face, Topical Facial Serum without Hyaluronic Acid & Vitamin E",
+      "imageUrl": "https://res.cloudinary.com/dyoztz92h/image/upload/v1632909666/Fsoft-academy/pngwing.com_ixjcnb.png",
+      "price": 17.99
+    },
+    {
+      "productId": "3",
+      "productName": "Aichun Beauty",
+      "description": "Serum for Face, Topical Facial Serum without Hyaluronic Acid & Vitamin E",
+      "imageUrl": "https://res.cloudinary.com/dyoztz92h/image/upload/v1632909875/Fsoft-academy/c5e83bbc7b60fc7d61da7bc07ec129dd31fc0d9b_origin.png",
+      "price": 24.99
+    }
+  ]
+  
