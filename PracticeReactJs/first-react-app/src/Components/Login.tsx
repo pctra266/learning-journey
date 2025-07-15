@@ -12,7 +12,10 @@ const fakeUsers = [
 interface LoginValues {
   userName: string;
   password: string;
+  confirmPassword: string;
   email: string;
+  gender: string;
+  level: string;
 }
 
 const validationSchema = Yup.object({
@@ -22,9 +25,14 @@ const validationSchema = Yup.object({
   password: Yup.string()
     .required("Password is required")
     .min(4, "Password must be at least 4 characters"),
+  confirmPassword: Yup.string()
+    .required("Please confirm your password")
+    .oneOf([Yup.ref("password")], "Passwords must match"),
   email: Yup.string()
     .required("Email is required")
     .email("Invalid email address"),
+  gender: Yup.string().required("Please select your gender"),
+  level: Yup.string().required("Please select your level"),
 });
 
 const Login: React.FC = () => {
@@ -45,7 +53,14 @@ const Login: React.FC = () => {
     <div className="login-container">
       <h2>Login</h2>
       <Formik
-        initialValues={{ userName: "", password: "", email: "" }} 
+        initialValues={{
+          userName: "",
+          password: "",
+          confirmPassword: "",
+          email: "",
+          gender: "",
+          level: "",
+        }}
         onSubmit={handleSubmit}
         validationSchema={validationSchema}
       >
@@ -63,9 +78,45 @@ const Login: React.FC = () => {
           </div>
 
           <div>
+            <label htmlFor="confirmPassword">Confirm Password:</label>
+            <Field name="confirmPassword" type="password" />
+            <ErrorMessage name="confirmPassword" component="div" className="message" />
+          </div>
+
+          <div>
             <label htmlFor="email">Email:</label>
             <Field name="email" type="email" />
             <ErrorMessage name="email" component="div" className="message" />
+          </div>
+
+          <div>
+            <label>Gender:</label>
+            <div role="group" aria-labelledby="gender">
+              <label>
+                <Field type="radio" name="gender" value="male" />
+                Male
+              </label>
+              <label style={{ marginLeft: "10px" }}>
+                <Field type="radio" name="gender" value="female" />
+                Female
+              </label>
+              <label style={{ marginLeft: "10px" }}>
+                <Field type="radio" name="gender" value="other" />
+                Other
+              </label>
+            </div>
+            <ErrorMessage name="gender" component="div" className="message" />
+          </div>
+
+          <div>
+            <label htmlFor="level">Level:</label>
+            <Field as="select" name="level">
+              <option value="">Select your level</option>
+              <option value="fresher">Fresher</option>
+              <option value="junior">Junior</option>
+              <option value="senior">Senior</option>
+            </Field>
+            <ErrorMessage name="level" component="div" className="message" />
           </div>
 
           <button type="submit">Login</button>
