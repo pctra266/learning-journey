@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "price": 1200,
+      "description": "High-performance laptop for work and gaming",
+      "inStock": true
+    },
+    {
+      "id": "2",
+      "name": "Smartphone",
+      "price": 800,
+      "description": "Latest model smartphone with powerful camera",
+      "inStock": true
+    },
+    {
+      "id": "3",
+      "name": "Headphones",
+      "price": "1500",
+      "description": "Noise-cancelling over-ear headphones",
+      "inStock": true
+    }
+  ]
+}
