@@ -9,8 +9,10 @@ import lombok.NoArgsConstructor;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import org.springframework.data.redis.core.RedisHash;
 import java.time.Instant;
 
+@RedisHash
 @Entity
 @Data
 @NoArgsConstructor
@@ -57,15 +59,4 @@ public class Aircraft {
                 Instant.now(), Instant.now(), Instant.now());
     }
 
-//    public void setLastSeenTime(long lastSeenTime) {
-//        this.lastSeenTime = Instant.ofEpochSecond(lastSeenTime);
-//    }
-//
-//    public void setPosUpdateTime(long posUpdateTime) {
-//        this.posUpdateTime = Instant.ofEpochSecond(posUpdateTime);
-//    }
-//
-//    public void setBds40SeenTime(long bds40SeenTime) {
-//        this.bds40SeenTime = Instant.ofEpochSecond(bds40SeenTime);
-//    }
 }
