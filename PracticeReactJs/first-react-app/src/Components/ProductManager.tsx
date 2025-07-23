@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import productService from '../service/product';
-
+import { Authcontext } from '../App';
 interface Product {
   id: number;
   name: string;
@@ -21,6 +21,7 @@ export default function ProductManager() {
   const [form, setForm] = useState<Omit<Product, 'id'>>(defaultForm);
   const [editId, setEditId] = useState<number | null>(null);
 
+  const {count,setCount} = useContext(Authcontext)
   useEffect(() => {
     fetchProducts();
   }, []);
@@ -66,7 +67,10 @@ export default function ProductManager() {
   };
 
   return (
+    
     <div style={{ padding: 20 }}>
+      <h1>COUNT:{count} </h1>
+      <button onClick={()=>{setCount(count+ 1)}}>set count</button>
       <h2>Product Manager</h2>
 
       <div style={{ marginBottom: 20 }}>
