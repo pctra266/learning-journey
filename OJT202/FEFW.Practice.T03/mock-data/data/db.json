@@ -1,0 +1,250 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "accent chair",
+      "price": 25999,
+      "image": "https://www.course-api.com/images/store/product-1.jpeg",
+      "colors": ["#ff0000", "#00ff00", "#0000ff"],
+      "company": "marcos",
+      "description": "Pellentesque vehicula vel turpis eget fermentum. Donec viverra sem nibh, vitae rutrum sem rhoncus eu. Sed nisl justo, consectetur nec diam mattis, aliquet elementum sem. Vivamus dapibus, lectus quis dictum fringilla, velit magna sagittis ligula, non molestie neque nibh ultrices diam. Proin eleifend erat sit amet lectus vehicula fermentum. Maecenas mollis pharetra dui interdum interdum.",
+      "category": "office",
+      "shipping": true
+    },
+    {
+      "id": "2",
+      "name": "albany sectional",
+      "price": 109999,
+      "image": "https://www.course-api.com/images/store/product-2.jpeg",
+      "colors": ["#000", "#ffb900"],
+      "company": "liddy",
+      "description": "Nunc tellus orci, faucibus vitae faucibus ac, mollis quis ex. Donec cursus massa faucibus ante mollis, dapibus eleifend erat pharetra. Vivamus lorem nisi, vestibulum sed malesuada vitae, pulvinar sed eros. Donec ut dictum sapien. Proin sed luctus massa. Pellentesque laoreet, turpis ut sodales sodales, sapien sem congue neque, at interdum lorem velit eget velit.",
+      "category": "living room"
+    },
+    {
+      "id": "3",
+      "name": "albany table",
+      "price": 309999,
+      "image": "https://www.course-api.com/images/store/product-3.jpeg",
+      "colors": ["#ffb900", "#0000ff"],
+      "company": "liddy",
+      "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed bibendum quam a sem aliquam commodo. Ut vitae arcu maximus, euismod erat ac, tristique velit. Aliquam nulla arcu, venenatis et urna eget, fringilla commodo urna. Nam rhoncus nunc ac rhoncus suscipit.",
+      "category": "kitchen"
+    },
+    {
+      "id": "4",
+      "name": "armchair",
+      "price": 12599,
+      "image": "https://www.course-api.com/images/store/product-4.jpeg",
+      "colors": ["#000", "#00ff00", "#0000ff"],
+      "company": "marcos",
+      "description": "Sed et mi massa. Aenean viverra ex nec lacinia blandit. Curabitur tempor elit sed est pulvinar, non volutpat elit finibus. Vestibulum egestas, tortor vel fermentum hendrerit, nisi mi tincidunt velit, eget tempus diam risus vitae enim. Pellentesque vitae nulla eget leo semper vestibulum varius commodo elit.",
+      "category": "bedroom",
+      "shipping": true
+    },
+    {
+      "id": "5",
+      "name": "dining table",
+      "price": 42999,
+      "image": "https://www.course-api.com/images/store/product-5.jpeg",
+      "colors": ["#00ff00", "#0000ff", "#ff0000"],
+      "company": "ikea",
+      "description": "In sagittis ligula in arcu volutpat, non tempus leo fermentum. Integer eu dignissim dui. Quisque congue nisi ac nisl elementum pulvinar. Aliquam viverra nunc et varius posuere. Praesent in feugiat mauris, eu dapibus nunc. Donec finibus maximus leo in tempor. Vivamus facilisis fermentum metus, in vehicula libero consectetur non.",
+      "category": "dining",
+      "shipping": true
+    },
+    {
+      "id": "6",
+      "name": "emperor bed",
+      "price": 23999,
+      "image": "https://www.course-api.com/images/store/product-6.jpeg",
+      "colors": ["#0000ff", "#000"],
+      "company": "ikea",
+      "description": "Nulla sollicitudin est tortor, sed vestibulum lorem blandit vitae. Aliquam ac magna at nisi ultricies fermentum mattis in orci. Fusce id porttitor libero, vitae sagittis diam. Vestibulum pellentesque sapien ac nisl rutrum varius. Quisque euismod eros in nibh commodo, ut egestas urna vestibulum. Phasellus ut ligula pretium, elementum mauris ut, ultrices eros.",
+      "category": "bedroom",
+      "shipping": true
+    },
+    {
+      "id": "7",
+      "name": "entertainment center",
+      "price": 59999,
+      "image": "https://www.course-api.com/images/store/product-7.jpeg",
+      "featured": true,
+      "colors": ["#000", "#ff0000"],
+      "company": "caressa",
+      "description": "Duis nulla eros, iaculis ac maximus vitae, aliquet nec nunc. In a sapien vel urna faucibus hendrerit nec cursus mi. Integer eleifend consectetur elit, eu elementum ex. Donec consectetur gravida volutpat. In gravida hendrerit nulla eget pellentesque. Proin pellentesque nunc eu suscipit lobortis. Integer laoreet feugiat massa porttitor volutpat.",
+      "category": "living room",
+      "shipping": true
+    },
+    {
+      "id": "8",
+      "name": "high-back bench",
+      "price": 39999,
+      "image": "https://www.course-api.com/images/store/product-8.jpeg",
+      "featured": true,
+      "colors": ["#000", "#00ff00"],
+      "company": "ikea",
+      "description": "Pellentesque nec maximus odio, nec egestas lorem. Proin sodales augue metus, non consequat nibh pretium eu. Mauris lobortis id diam at maximus. Cras ornare augue sed orci eleifend tincidunt. Sed quam justo, porttitor quis porttitor at, facilisis a enim. Nam in justo odio. Sed quis volutpat eros. Sed vel lorem leo. Sed non dapibus dolor..",
+      "category": "office",
+      "shipping": true
+    },
+    {
+      "id": "9",
+      "name": "leather chair",
+      "price": 20099,
+      "image": "https://www.course-api.com/images/store/product-9.jpeg",
+      "colors": ["#ff0000", "#ffb900", "#00ff00"],
+      "company": "caressa",
+      "description": "Maecenas auctor at urna at congue. In hac habitasse platea dictumst. Etiam feugiat orci et vestibulum porttitor. Sed convallis, sem in euismod porttitor, justo nisi dignissim eros, in dictum nibh nunc ut metus. Praesent vitae pellentesque enim, a pretium urna. Integer vel mauris vulputate, dignissim nibh ac, euismod elit.",
+      "category": "bedroom"
+    },
+    {
+      "id": "10",
+      "name": "leather sofa",
+      "price": 99999,
+      "image": "https://www.course-api.com/images/store/product-10.jpeg",
+      "colors": ["#00ff00", "#0000ff"],
+      "company": "caressa",
+      "description": "Aenean at malesuada lectus. Morbi nec sollicitudin ligula. Aliquam erat volutpat. Sed et urna felis. Ut facilisis ligula id nisi volutpat, in tincidunt augue consectetur. Donec ullamcorper sem at sagittis dapibus. Suspendisse varius felis in sapien venenatis blandit. Proin eget dolor vel nisi lacinia lobortis. Praesent tristique lacus nec ante vestibulum, hendrerit viverra odio porta..",
+      "category": "office"
+    },
+    {
+      "id": "11",
+      "name": "modern bookshelf",
+      "price": 31999,
+      "image": "https://www.course-api.com/images/store/product-11.jpeg",
+      "featured": true,
+      "colors": ["#ffb900", "#ff0000", "#00ff00"],
+      "company": "caressa",
+      "description": "Sed non diam hendrerit, gravida dui eu, tincidunt ex. Sed tincidunt lectus malesuada, lobortis dolor vel, ornare est. Cras at nisi magna. Nulla pellentesque ante in eros condimentum, non rhoncus tellus rutrum. Cras vitae luctus neque, eget volutpat lacus. Donec facilisis dolor ut facilisis volutpat.",
+      "category": "kids"
+    },
+    {
+      "id": "12",
+      "name": "modern poster",
+      "price": 3099,
+      "image": "https://www.course-api.com/images/store/product-12.jpeg",
+      "colors": ["#000"],
+      "company": "liddy",
+      "description": "Fusce rhoncus elit vel mauris malesuada hendrerit. Vivamus imperdiet ipsum enim, id luctus libero ultrices sit amet. Suspendisse sit amet finibus metus. Vivamus accumsan elit quis sem feugiat malesuada. Aenean at magna lobortis, cursus elit a, bibendum neque. In at lorem euismod nunc luctus pellentesque sed vel odio. Curabitur sollicitudin justo urna, eu gravida neque auctor sodales.",
+      "category": "living room",
+      "shipping": true
+    },
+    {
+      "id": "13",
+      "name": "shelf",
+      "price": 30999,
+      "image": "https://www.course-api.com/images/store/product-13.jpeg",
+      "colors": ["#00ff00"],
+      "company": "ikea",
+      "description": "Nulla non felis lacinia, interdum turpis nec, dictum quam. Integer lobortis imperdiet risus, eget tristique urna facilisis a. Aenean auctor, neque sit amet rhoncus lacinia, est dolor feugiat ipsum, quis porta tellus libero vitae purus. Etiam cursus enim quam, vel vehicula mauris accumsan ut. Nulla sodales metus sit amet arcu malesuada, eget aliquet nunc sodales. Pellentesque tincidunt aliquet condimentum.",
+      "category": "living room"
+    },
+    {
+      "id": "14",
+      "name": "simple chair",
+      "price": 109999,
+      "image": "https://www.course-api.com/images/store/product-14.jpeg",
+      "colors": ["#0000ff"],
+      "company": "liddy",
+      "description": "Sed pellentesque dolor ligula, id lobortis risus tincidunt sed. Mauris aliquet faucibus justo ac faucibus. Nullam ut dui ac odio malesuada pharetra ut tempor nisi. Donec fermentum eget dui id dignissim. Donec porttitor ut massa nec posuere. Integer feugiat diam suscipit felis egestas ornare. Sed sed maximus risus. Nulla imperdiet gravida condimentum. Morbi viverra vel arcu ut aliquam.",
+      "category": "living room",
+      "shipping": true
+    },
+    {
+      "id": "15",
+      "name": "sofa set",
+      "price": 129999,
+      "image": "https://www.course-api.com/images/store/product-15.jpeg",
+      "colors": ["#00ff00", "#ffb900"],
+      "company": "marcos",
+      "description": "Cras ac risus et arcu egestas pulvinar id rutrum tortor. Aliquam vel vehicula enim. Nulla egestas purus ut tempor lacinia. Duis faucibus facilisis commodo. Nulla tempus ex ultrices justo egestas, eget egestas sem vulputate. Vestibulum vitae diam egestas mauris porttitor facilisis accumsan ut nulla. Suspendisse convallis augue ut orci fermentum feugiat. Sed eget arcu nisi. Nunc ut faucibus erat.",
+      "category": "living room",
+      "shipping": true
+    },
+    {
+      "id": "16",
+      "name": "suede armchair",
+      "price": 15999,
+      "image": "https://www.course-api.com/images/store/product-16.jpeg",
+      "colors": ["#ffb900"],
+      "company": "caressa",
+      "description": "Aliquam porttitor arcu quis justo iaculis euismod. Duis dictum eros eget dui euismod pretium. Cras eu cursus mi, at tempor arcu. Quisque porta pretium euismod. Quisque et elit ut elit fermentum volutpat. Donec finibus dui nulla. Donec lobortis elit vel ante bibendum aliquam. Duis auctor convallis elementum. Quisque ut egestas augue, eget sodales enim.",
+      "category": "office"
+    },
+    {
+      "id": "17",
+      "name": "utopia sofa",
+      "price": 79999,
+      "image": "https://www.course-api.com/images/store/product-17.jpeg",
+      "featured": true,
+      "colors": ["#ff0000", "#00ff00"],
+      "company": "liddy",
+      "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et varius risus. Sed non lectus nisi. Aenean efficitur felis a metus eleifend bibendum. Sed ac blandit lorem, ac pharetra sapien. Maecenas ornare, nisi ut faucibus rhoncus, velit dolor rutrum odio, et placerat lorem mauris eget ante.",
+      "category": "living room"
+    },
+    {
+      "id": "18",
+      "name": "vase table",
+      "price": 120999,
+      "image": "https://www.course-api.com/images/store/product-18.jpeg",
+      "featured": true,
+      "colors": ["#ff0000"],
+      "company": "marcos",
+      "description": "Mauris id egestas justo. Nulla facilisi. Sed eu magna eget nisi ultrices efficitur. Vivamus consectetur commodo leo sed consectetur. Nullam bibendum aliquam nibh, sit amet viverra enim. Aliquam rhoncus est sed dignissim luctus. Nullam non tellus id orci porttitor consequat. Vivamus convallis elit tempor nulla varius, vitae tincidunt urna maximus.",
+      "category": "office"
+    },
+    {
+      "id": "19",
+      "name": "wooden bed",
+      "price": 250099,
+      "image": "https://www.course-api.com/images/store/product-19.jpeg",
+      "colors": ["#000", "#ffb900"],
+      "company": "ikea",
+      "description": "Phasellus eros metus, volutpat et rutrum in, mollis vitae erat. Vivamus aliquam metus eu eleifend rhoncus. Nulla facilisi. Phasellus semper dui non turpis luctus tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent massa lectus, eleifend mollis metus vitae, condimentum tincidunt erat. Sed placerat risus eu felis ultrices faucibus. Proin feugiat tellus eget pretium ultricies.",
+      "category": "bedroom"
+    },
+    {
+      "id": "20",
+      "name": "wooden desk",
+      "price": 150999,
+      "image": "https://www.course-api.com/images/store/product-20.jpeg",
+      "colors": ["#000"],
+      "company": "ikea",
+      "description": "Sed faucibus, purus vel laoreet mattis, neque sapien scelerisque lacus, quis feugiat nisi quam nec dolor. Pellentesque varius sem at neque cursus, at feugiat tellus dictum. Nullam nulla tellus, vehicula in dolor ut, ultricies lobortis quam. Nulla sollicitudin, lacus a pharetra mollis, sem ex iaculis ipsum, in accumsan orci nisi eget odio.",
+      "category": "office",
+      "shipping": true
+    },
+    {
+      "id": "21",
+      "name": "wooden desk",
+      "price": 40099,
+      "image": "https://www.course-api.com/images/store/product-21.jpeg",
+      "colors": ["#0000ff", "#00ff00"],
+      "company": "ikea",
+      "description": "Nullam luctus iaculis rutrum. Nullam iaculis molestie leo a hendrerit. Nullam a diam laoreet, aliquet tortor nec, ultricies quam. Morbi at mi mollis, rhoncus tellus vitae, rutrum enim. Sed gravida sodales ultricies. Integer sodales dolor lobortis, placerat mi vel, dapibus magna. Fusce lobortis tellus a feugiat condimentum. Maecenas eget lectus at sem eleifend pharetra.",
+      "category": "office"
+    },
+    {
+      "id": "22",
+      "name": "wooden table",
+      "price": 234999,
+      "image": "https://www.course-api.com/images/store/product-22.jpeg",
+      "featured": true,
+      "colors": ["#ffb900", "#ff0000"],
+      "company": "caressa",
+      "description": "Vivamus auctor mauris a tristique interdum. Nullam eu nibh efficitur, iaculis est a, lobortis lacus. Pellentesque felis quam, convallis et placerat in, maximus sit amet odio. Aenean at mollis ipsum, eget pulvinar dolor. Pellentesque laoreet sollicitudin nunc, eget iaculis leo faucibus quis. Etiam in vulputate mi, sed viverra magna.",
+      "category": "kitchen",
+      "shipping": true
+    }
+  ],
+  "categories": [
+    "office",
+    "living room",
+    "kitchen",
+    "bedroom",
+    "dining",
+    "kids"
+  ],
+  "companies": ["marcos", "liddy", "ikea", "caressa"]
+}
