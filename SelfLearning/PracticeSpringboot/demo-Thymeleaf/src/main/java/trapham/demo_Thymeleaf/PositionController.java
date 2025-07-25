@@ -12,8 +12,6 @@ import org.springframework.web.reactive.function.client.WebClient;
 public class PositionController {
     @NonNull
     private final AircraftRepository repository;
-    private WebClient client =
-            WebClient.create("http://localhost:7634/aircraft");
     @GetMapping("/aircraft")
     public String getCurrentAircraftPositions(Model model) {
         model.addAttribute("currentPositions", repository.findAll());
