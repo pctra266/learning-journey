@@ -2,25 +2,21 @@ package trapham.planFinder;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.redis.core.RedisHash;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Table;
 
 import java.time.Instant;
 
-@RedisHash
-@Entity
+@Table
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Aircraft {
     @Id
-    @GeneratedValue
     private Long id;
     private String callsign, squawk, reg, flightno, route, type, category;
 
@@ -58,5 +54,6 @@ public class Aircraft {
                 false, true,
                 Instant.now(), Instant.now(), Instant.now());
     }
+
 
 }

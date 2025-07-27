@@ -2,7 +2,9 @@ package trapham.planFinder;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.SneakyThrows;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import reactor.core.publisher.Flux;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -25,39 +27,11 @@ public class PlaneFinderService {
         om = new ObjectMapper();
     }
 
-    public Iterable<Aircraft> getAircraft() throws IOException {
+    public Flux<Aircraft> getAircraft() {
         return saveSamplePositions();
-//        List<Aircraft> positions = new ArrayList<>();
-//
-//        JsonNode aircraftNodes = null;
-//        try {
-//            aircraftNodes = om.readTree(acURL)
-//                    .get("aircraft");
-//
-//            aircraftNodes.iterator().forEachRemaining(node -> {
-//                try {
-//                    positions.add(om.treeToValue(node, Aircraft.class));
-//                } catch (JsonProcessingException e) {
-//                    e.printStackTrace();
-//                }
-//            });
-//        } catch (IOException e) {
-//            System.out.println("\n>>> IO Exception: " + e.getLocalizedMessage() +
-//                    ", generating and providing sample data.\n");
-//            return saveSamplePositions();
-//        }
-//        if (positions.size() > 0) {
-//            positions.forEach(System.out::println);
-//
-//            repo.deleteAll();
-//            return repo.saveAll(positions);
-//        } else {
-//            System.out.println("\n>>> No positions to report, generating and providing sample data.\n");
-//            return saveSamplePositions();
-//        }
     }
 
-    private Iterable<Aircraft> saveSamplePositions() {
+    public Flux<Aircraft> saveSamplePositions() {
         final Random rnd = new Random();
 
         repo.deleteAll();
