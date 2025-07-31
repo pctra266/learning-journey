@@ -3,6 +3,7 @@ package trapham.demo_Thymeleaf;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
 
@@ -15,13 +16,19 @@ import java.util.function.Consumer;
 public class PositionRetriever {
     private final AircraftRepository repository;
     private final WebSocketHandler handler;
-    @Bean
-    Consumer<List<Aircraft>> retrieveAircraftPositions() {
-        return acList -> {
-            repository.deleteAll();
-            repository.saveAll(acList);
-            sendPositions();
-        };
+    private final WebClient client =
+            WebClient.create("http://localhost:7634");
+
+    Iterable<Aircraft> retrieveAircraftPositions() {
+        repository.deleteAll();
+        client.get()
+                .uri("/aircraft")
+                .retrieve()
+                .bodyToFlux(Aircraft.class)
+                .filter(ac -> !ac.getReg().isEmpty())
+                .toStream()
+                .forEach(repository::save);
+        return repository.findAll();
     }
 
     private void sendPositions() {
@@ -37,4 +44,5 @@ public class PositionRetriever {
             }
         }
     }
+
 }

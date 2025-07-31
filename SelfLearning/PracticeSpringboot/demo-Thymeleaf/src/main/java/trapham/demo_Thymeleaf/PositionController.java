@@ -1,20 +1,21 @@
 package trapham.demo_Thymeleaf;
 
+import lombok.AllArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.reactive.function.client.WebClient;
 
-@RequiredArgsConstructor
-@Controller
+@AllArgsConstructor
+@RestController
 public class PositionController {
-    @NonNull
-    private final AircraftRepository repository;
+    private final PositionRetriever retriever;
+
     @GetMapping("/aircraft")
-    public String getCurrentAircraftPositions(Model model) {
-        model.addAttribute("currentPositions", repository.findAll());
-        return "positions";
+    public Iterable<Aircraft> getCurrentAircraftPositions(Model model) {
+        return retriever.retrieveAircraftPositions();
     }
 }
